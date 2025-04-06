@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to right, 
+        #3498db 18%,    
+        white 18%     
+    );
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.gambiarra {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.fotoenomedoeduardo{
+    padding: auto;
+}
+.minha-imagem {
+    width: 300px;  
+    height: 230px;       
+    max-width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px
+  }
+.fotoenomedoeduardo hr{
+   border-color: black;
+   border-radius: 10px;
+   align-self: center;
+   width: 800px;
+   height: 5px; 
+   background-color: #333; 
+
+}
+.dudunome {
+    font-size: 100px;
+    color: #3498db;
+    margin-left: 450px;
+}
+.dados-pessoais {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+    color: rgb(243, 236, 236);
+}
+.dados-pessoais hr{
+    float: left;
+    width: 300px;
+    border-color: rgb(243, 236, 236);
+}
+.dados-pessoais h2 {
+    color: #2c3e50;
+    margin-top: 0px;
+    border-bottom: 2px solid #3498db;
+}
+
+.dados-pessoais ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dados-pessoais li {
+    padding: 8px 0;
+    
+}
+
+.dados-pessoais li:last-child {
+    border-bottom: none;
+}
+
+.dados-pessoais strong {
+    rgb(243, 236, 236);
+    margin-right: 10px;
+}
+.meio {
+    margin-left: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 100px;
+    color: black
+}
+.habilidade-competencia{
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    color: rgb(243, 236, 236);
+}
+.habilidade-competencia hr{
+    float: left;
+    width: 300px;
+    border-color: rgb(243, 236, 236);
+}
+.habilidade-competencia h2 {
+    color: #2c3e50;
+    margin-top: 0px;
+    border-bottom: 2px solid #3498db;
+}
+
+.habilidade-competencia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.habilidade-competencia li {
+    padding: 8px 0;
+    
+}
+
+.habilidade-competencia li:last-child {
+    border-bottom: none;
+}
+
+.habilidade-competencia strong {
+    rgb(243, 236, 236);
+    margin-right: 10px;
+}
