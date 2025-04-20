@@ -1,0 +1,158 @@
+/* CSS do Index - Rian */
+
+:root {
+    --azul-primario: #3498db;
+    --azul-escuro: #2980b9;
+    --cinza-escuro: #2c3e50;
+    --cinza-claro: #ecf0f1;
+    --branco: #ffffff;
+    --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, 
+        #3498db 350px,    /* Tamanho do menu */
+        white 300px       /* Parte branca */
+    );
+}
+.gambiarra {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.fotoenomedoeduardo{
+    padding: auto;
+}
+.minha-imagem {
+    width: 300px;  
+    height: 230px;       
+    max-width: 100%;
+    float: left;
+    margin-left: 70px;
+    object-fit: cover;
+    border: 4px solid var(--azul-primario);
+    margin-bottom: 15px;
+    box-shadow: var(--sombra);
+  }
+.fotoenomedoeduardo hr{
+   border-color: black;
+   border-radius: 10px;
+   align-self: center;
+   width: 800px;
+   height: 5px; 
+   background-color: #333; 
+   position: relative;
+   right: -50px;
+   bottom: -50px;
+}
+.dudunome {
+    font-size: 100px;
+    color: #3498db;
+    margin-left: 450px;
+    position: relative;
+    bottom: -50px;
+}
+.dados-pessoais {
+    list-style: none;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 50px;
+    color: rgb(243, 236, 236);
+    margin-left: 25px
+}
+.dados-pessoais hr{
+    float: left;
+    width: 300px;
+    border-color: rgb(243, 236, 236);
+}
+.dados-pessoais h2 {
+    color: #2c3e50;
+    margin-top: 0px;
+    border-bottom: 2px solid #3498db;
+}
+
+.dados-pessoais ul {
+    list-style-type: none !important;
+    padding: 0;
+}
+.dados-pessoais li {
+    padding: 3px;
+}
+.dados-pessoais li::before {
+    content: "🎆";
+    color: #3498db;
+    font-weight: bold;
+}
+.dados-pessoais strong {
+    color: white;
+    margin-right: 10px;
+}
+.meio {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    color: black;
+    position: relative;
+    top: -100px;
+}
+.habilidade-competencia{
+    list-style: none;
+    width: 100%;
+    max-width: 300px;
+    color: rgb(243, 236, 236);
+    margin-left: 25px;
+    margin-top: 50px;
+    position: relative;
+    top: -420px;
+}
+.habilidade-competencia hr{
+    float: left;
+    width: 300px;
+    border-color: rgb(243, 236, 236);
+}
+.habilidade-competencia h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+}
+
+.habilidade-competencia ul {
+    list-style-type: none !important;
+}
+
+.habilidade-competencia li {
+    padding: 3px;
+    
+}
+
+.habilidade-competencia li:last-child {
+    border-bottom: none;
+}
+
+.habilidade-competencia strong {
+    color: white;
+    margin-right: 10px;
+}
+a{
+    color: white
+}
+main strong{
+    font-size: 30px;
+}
+
+.habilidade-competencia a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+.habilidade-competencia a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 5px;
+    transition: background-color 0.3s;
+}
