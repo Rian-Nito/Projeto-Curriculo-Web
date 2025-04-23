@@ -24,9 +24,6 @@ body {
     width: 100%;
     margin-top: 20px;
 }
-.fotoenomedoeduardo{
-    padding: auto;
-}
 .minha-imagem {
     width: 300px;  
     height: 230px;       
@@ -48,7 +45,7 @@ body {
    height: 5px; 
    background-color: #333; 
    position: relative;
-   right: -50px;
+   right: -20px;
    bottom: -50px;
 }
 .dudunome {
@@ -102,6 +99,7 @@ body {
     color: black;
     position: relative;
     top: -100px;
+    right: -150px;
 }
 .habilidade-competencia{
     list-style: none;
@@ -124,6 +122,8 @@ body {
 
 .habilidade-competencia ul {
     list-style-type: none !important;
+    padding: 0;
+    margin: 0;
 }
 
 .habilidade-competencia li {
@@ -283,4 +283,15 @@ main strong{
 
 .botao-limpar:hover {
     background-color: #ddd;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
