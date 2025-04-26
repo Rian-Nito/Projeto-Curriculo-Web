@@ -49,7 +49,7 @@ body {
    bottom: -50px;
 }
 .dudunome {
-    margin-right: 100px; /* Alinhado com o padding-right do container */
+    right: 190px; 
     font-size: 100px;
     color: #3498db;
     margin-left: 450px;
