@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato comigo. Email, telefone e WhatsApp para propostas de trabalho, parcerias ou dúvidas técnicas.">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato - Eduarda Junior</title>
+</head>
+<body>
+    <div class="fotoenomedoeduardo">
+        <header>
+            <b class="dudunome">Eduarda Junior</b>
+            <img src="img/eduarda.jpg" class="minha-imagem" alt="Eduardo Junior Foto">
+            <hr>
+        </header>
+    </div>
+
+<div class="container">
+    <div class="navegacao">
+            <section>
+                <hr>
+                <h2><strong>MENU DE NAVEGAÇÃO</strong></h2>
+                <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                </ul>
+                <hr>
+            </section>
+    </div>
+
+    <div class="meio">
+        <main>
+            <h1 class="titulo-contato">Formulário de Contato</h1>
+            
+            <form class="formulario-contato" action="#" method="POST">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    
+                    <div class="form-group">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="nascimento">Data de Nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento">
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Dados da Empresa</legend>
+                    
+                    <div class="form-group">
+                        <label for="empresa">Nome da Empresa:</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cargo">Cargo/Função:</label>
+                        <input type="text" id="cargo" name="cargo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="website">Website:</label>
+                        <input type="url" id="website" name="website">
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Endereço</legend>
+                    
+                    <div class="form-group">
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep" name="cep">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="logradouro">Logradouro:</label>
+                        <input type="text" id="logradouro" name="logradouro">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="numero">Número:</label>
+                        <input type="text" id="numero" name="numero">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="complemento">Complemento:</label>
+                        <input type="text" id="complemento" name="complemento">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" id="bairro" name="bairro">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="estado">Estado:</label>
+                        <select id="estado" name="estado">
+                            <option value="">Selecione...</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    
+                    <div class="form-group">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Preferências de Contato</legend>
+                    
+                    <div class="form-group">
+                        <label>Como prefere ser contactado?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="contato-email" name="preferencia-contato" value="email" checked>
+                            <label for="contato-email">E-mail</label>
+                            
+                            <input type="radio" id="contato-telefone" name="preferencia-contato" value="telefone">
+                            <label for="contato-telefone">Telefone</label>
+                            
+                            <input type="radio" id="contato-whatsapp" name="preferencia-contato" value="whatsapp">
+                            <label for="contato-whatsapp">WhatsApp</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Áreas de Interesse:</label>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="interesse-front" name="interesse[]" value="frontend">
+                            <label for="interesse-front">Desenvolvimento Front-end</label>
+                            
+                            <input type="checkbox" id="interesse-back" name="interesse[]" value="backend">
+                            <label for="interesse-back">Desenvolvimento Back-end</label>
+                            
+                            <input type="checkbox" id="interesse-full" name="interesse[]" value="fullstack">
+                            <label for="interesse-full">Desenvolvimento Full Stack</label>
+                            
+                            <input type="checkbox" id="interesse-ux" name="interesse[]" value="ux">
+                            <label for="interesse-ux">Design UX/UI</label>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <div class="form-group termos">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Li e aceito os termos de uso e política de privacidade</label>
+                </div>
+                
+                <div class="form-group botoes">
+                    <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+                    <button type="reset" class="botao-limpar">Limpar Formulário</button>
+                </div>
+                 </form>
+        </main>
+    </div>
+</div>
+
+<script src="contato.js"></script>
+</body>
+</html>
